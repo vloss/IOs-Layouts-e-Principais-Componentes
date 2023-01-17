@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Botões
+//  Botoes
 //
 //  Created by Vinicius Loss on 17/01/23.
 //

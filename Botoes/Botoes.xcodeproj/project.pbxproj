@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7C6DE3B2977093E001043F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6DE3A2977093E001043F4 /* AppDelegate.swift */; };
-		B7C6DE3D2977093E001043F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6DE3C2977093E001043F4 /* SceneDelegate.swift */; };
-		B7C6DE3F2977093E001043F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6DE3E2977093E001043F4 /* ViewController.swift */; };
-		B7C6DE422977093E001043F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6DE402977093E001043F4 /* Main.storyboard */; };
-		B7C6DE442977093F001043F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C6DE432977093F001043F4 /* Assets.xcassets */; };
-		B7C6DE472977093F001043F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6DE452977093F001043F4 /* LaunchScreen.storyboard */; };
+		B7C6DE5B29770B74001043F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6DE5A29770B74001043F4 /* AppDelegate.swift */; };
+		B7C6DE5D29770B74001043F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6DE5C29770B74001043F4 /* SceneDelegate.swift */; };
+		B7C6DE5F29770B74001043F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6DE5E29770B74001043F4 /* ViewController.swift */; };
+		B7C6DE6229770B74001043F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6DE6029770B74001043F4 /* Main.storyboard */; };
+		B7C6DE6429770B75001043F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C6DE6329770B75001043F4 /* Assets.xcassets */; };
+		B7C6DE6729770B75001043F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6DE6529770B75001043F4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B7C6DE372977093E001043F4 /* Botões.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Botões.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7C6DE3A2977093E001043F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7C6DE3C2977093E001043F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7C6DE3E2977093E001043F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7C6DE412977093E001043F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B7C6DE432977093F001043F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B7C6DE462977093F001043F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7C6DE482977093F001043F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C6DE5729770B74001043F4 /* Botoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Botoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C6DE5A29770B74001043F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7C6DE5C29770B74001043F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7C6DE5E29770B74001043F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7C6DE6129770B74001043F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7C6DE6329770B75001043F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7C6DE6629770B75001043F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7C6DE6829770B75001043F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7C6DE342977093E001043F4 /* Frameworks */ = {
+		B7C6DE5429770B74001043F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B7C6DE2E2977093D001043F4 = {
+		B7C6DE4E29770B74001043F4 = {
 			isa = PBXGroup;
 			children = (
-				B7C6DE392977093E001043F4 /* Botões */,
-				B7C6DE382977093E001043F4 /* Products */,
+				B7C6DE5929770B74001043F4 /* Botoes */,
+				B7C6DE5829770B74001043F4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B7C6DE382977093E001043F4 /* Products */ = {
+		B7C6DE5829770B74001043F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7C6DE372977093E001043F4 /* Botões.app */,
+				B7C6DE5729770B74001043F4 /* Botoes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7C6DE392977093E001043F4 /* Botões */ = {
+		B7C6DE5929770B74001043F4 /* Botoes */ = {
 			isa = PBXGroup;
 			children = (
-				B7C6DE3A2977093E001043F4 /* AppDelegate.swift */,
-				B7C6DE3C2977093E001043F4 /* SceneDelegate.swift */,
-				B7C6DE3E2977093E001043F4 /* ViewController.swift */,
-				B7C6DE402977093E001043F4 /* Main.storyboard */,
-				B7C6DE432977093F001043F4 /* Assets.xcassets */,
-				B7C6DE452977093F001043F4 /* LaunchScreen.storyboard */,
-				B7C6DE482977093F001043F4 /* Info.plist */,
+				B7C6DE5A29770B74001043F4 /* AppDelegate.swift */,
+				B7C6DE5C29770B74001043F4 /* SceneDelegate.swift */,
+				B7C6DE5E29770B74001043F4 /* ViewController.swift */,
+				B7C6DE6029770B74001043F4 /* Main.storyboard */,
+				B7C6DE6329770B75001043F4 /* Assets.xcassets */,
+				B7C6DE6529770B75001043F4 /* LaunchScreen.storyboard */,
+				B7C6DE6829770B75001043F4 /* Info.plist */,
 			);
-			path = "Botões";
+			path = Botoes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7C6DE362977093E001043F4 /* Botões */ = {
+		B7C6DE5629770B74001043F4 /* Botoes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7C6DE4B2977093F001043F4 /* Build configuration list for PBXNativeTarget "Botões" */;
+			buildConfigurationList = B7C6DE6B29770B75001043F4 /* Build configuration list for PBXNativeTarget "Botoes" */;
 			buildPhases = (
-				B7C6DE332977093E001043F4 /* Sources */,
-				B7C6DE342977093E001043F4 /* Frameworks */,
-				B7C6DE352977093E001043F4 /* Resources */,
+				B7C6DE5329770B74001043F4 /* Sources */,
+				B7C6DE5429770B74001043F4 /* Frameworks */,
+				B7C6DE5529770B74001043F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Botões";
-			productName = "Botões";
-			productReference = B7C6DE372977093E001043F4 /* Botões.app */;
+			name = Botoes;
+			productName = Botoes;
+			productReference = B7C6DE5729770B74001043F4 /* Botoes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B7C6DE2F2977093E001043F4 /* Project object */ = {
+		B7C6DE4F29770B74001043F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B7C6DE362977093E001043F4 = {
+					B7C6DE5629770B74001043F4 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = B7C6DE322977093E001043F4 /* Build configuration list for PBXProject "Botões" */;
+			buildConfigurationList = B7C6DE5229770B74001043F4 /* Build configuration list for PBXProject "Botoes" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B7C6DE2E2977093D001043F4;
-			productRefGroup = B7C6DE382977093E001043F4 /* Products */;
+			mainGroup = B7C6DE4E29770B74001043F4;
+			productRefGroup = B7C6DE5829770B74001043F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7C6DE362977093E001043F4 /* Botões */,
+				B7C6DE5629770B74001043F4 /* Botoes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B7C6DE352977093E001043F4 /* Resources */ = {
+		B7C6DE5529770B74001043F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C6DE472977093F001043F4 /* LaunchScreen.storyboard in Resources */,
-				B7C6DE442977093F001043F4 /* Assets.xcassets in Resources */,
-				B7C6DE422977093E001043F4 /* Main.storyboard in Resources */,
+				B7C6DE6729770B75001043F4 /* LaunchScreen.storyboard in Resources */,
+				B7C6DE6429770B75001043F4 /* Assets.xcassets in Resources */,
+				B7C6DE6229770B74001043F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B7C6DE332977093E001043F4 /* Sources */ = {
+		B7C6DE5329770B74001043F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C6DE3F2977093E001043F4 /* ViewController.swift in Sources */,
-				B7C6DE3B2977093E001043F4 /* AppDelegate.swift in Sources */,
-				B7C6DE3D2977093E001043F4 /* SceneDelegate.swift in Sources */,
+				B7C6DE5F29770B74001043F4 /* ViewController.swift in Sources */,
+				B7C6DE5B29770B74001043F4 /* AppDelegate.swift in Sources */,
+				B7C6DE5D29770B74001043F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7C6DE402977093E001043F4 /* Main.storyboard */ = {
+		B7C6DE6029770B74001043F4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7C6DE412977093E001043F4 /* Base */,
+				B7C6DE6129770B74001043F4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B7C6DE452977093F001043F4 /* LaunchScreen.storyboard */ = {
+		B7C6DE6529770B75001043F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7C6DE462977093F001043F4 /* Base */,
+				B7C6DE6629770B75001043F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B7C6DE492977093F001043F4 /* Debug */ = {
+		B7C6DE6929770B75001043F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B7C6DE4A2977093F001043F4 /* Release */ = {
+		B7C6DE6A29770B75001043F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		B7C6DE4C2977093F001043F4 /* Debug */ = {
+		B7C6DE6C29770B75001043F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y5F7BP894;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Botões/Info.plist";
+				INFOPLIST_FILE = Botoes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vloss.com.br.Boto-es";
+				PRODUCT_BUNDLE_IDENTIFIER = vloss.com.br.Botoes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -311,7 +311,7 @@
 			};
 			name = Debug;
 		};
-		B7C6DE4D2977093F001043F4 /* Release */ = {
+		B7C6DE6D29770B75001043F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +320,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y5F7BP894;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Botões/Info.plist";
+				INFOPLIST_FILE = Botoes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vloss.com.br.Boto-es";
+				PRODUCT_BUNDLE_IDENTIFIER = vloss.com.br.Botoes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -345,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7C6DE322977093E001043F4 /* Build configuration list for PBXProject "Botões" */ = {
+		B7C6DE5229770B74001043F4 /* Build configuration list for PBXProject "Botoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7C6DE492977093F001043F4 /* Debug */,
-				B7C6DE4A2977093F001043F4 /* Release */,
+				B7C6DE6929770B75001043F4 /* Debug */,
+				B7C6DE6A29770B75001043F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7C6DE4B2977093F001043F4 /* Build configuration list for PBXNativeTarget "Botões" */ = {
+		B7C6DE6B29770B75001043F4 /* Build configuration list for PBXNativeTarget "Botoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7C6DE4C2977093F001043F4 /* Debug */,
-				B7C6DE4D2977093F001043F4 /* Release */,
+				B7C6DE6C29770B75001043F4 /* Debug */,
+				B7C6DE6D29770B75001043F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B7C6DE2F2977093E001043F4 /* Project object */;
+	rootObject = B7C6DE4F29770B74001043F4 /* Project object */;
 }
