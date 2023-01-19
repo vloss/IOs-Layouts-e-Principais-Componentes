@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MessageColorViewController: UIViewController {
+class MessageColorViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

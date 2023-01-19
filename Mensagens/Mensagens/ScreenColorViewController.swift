@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ScreenColorViewController: UIViewController {
+class ScreenColorViewController: BaseViewController {
     
     @IBOutlet weak var viBorder: UIView!
     
