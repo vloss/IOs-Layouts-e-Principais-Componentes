@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -118,6 +119,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RxP-B2-nz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1266" y="133"/>
+        </scene>
+        <!--Color Picker View Controller-->
+        <scene sceneID="WeV-uU-HEN">
+            <objects>
+                <viewController id="AyI-uv-MIo" customClass="ColorPickerViewController" customModule="Mensagens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dWa-zJ-V8M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2kv-5q-E4e">
+                                <rect key="frame" x="67.5" y="163.5" width="240" height="340"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oip-rK-jDh">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iXB-pa-8X7">
+                                        <rect key="frame" x="20" y="155" width="200" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="minimumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                                        <color key="thumbTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="naB-Dy-BDz">
+                                        <rect key="frame" x="20" y="202" width="200" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="minimumTrackTintColor" red="0.0" green="1" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                                        <color key="thumbTintColor" red="0.0" green="1" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                                    </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="EiW-Sg-fUw">
+                                        <rect key="frame" x="20" y="252" width="200" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="1" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                                        <color key="thumbTintColor" red="0.0" green="0.0" blue="1" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                                    </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Z-LT-2y8">
+                                        <rect key="frame" x="22" y="297" width="196" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Escolher Cor"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="C5C-zn-xOm"/>
+                                    <constraint firstAttribute="height" constant="340" id="hnc-ln-LVx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VRG-jQ-Ao5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2kv-5q-E4e" firstAttribute="centerY" secondItem="dWa-zJ-V8M" secondAttribute="centerY" id="BMW-MP-f2Z"/>
+                            <constraint firstItem="2kv-5q-E4e" firstAttribute="centerX" secondItem="dWa-zJ-V8M" secondAttribute="centerX" id="Z9k-gt-UZw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slBlue" destination="EiW-Sg-fUw" id="7Gy-ZG-1GU"/>
+                        <outlet property="slGreen" destination="naB-Dy-BDz" id="TAP-D4-RXf"/>
+                        <outlet property="slRed" destination="iXB-pa-8X7" id="Sli-uh-Nwq"/>
+                        <outlet property="viColor" destination="Oip-rK-jDh" id="nAE-2i-iNs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXZ-Yq-Ex4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1965.5999999999999" y="-596.85157421289364"/>
         </scene>
         <!--Cor da tela-->
         <scene sceneID="Rxm-ll-x0z">
@@ -252,4 +319,9 @@
             <point key="canvasLocation" x="-321" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

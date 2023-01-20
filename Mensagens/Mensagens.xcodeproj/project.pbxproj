@@ -17,6 +17,7 @@
 		A17132E41F844D8E00049020 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17132E31F844D8E00049020 /* ResultViewController.swift */; };
 		A17132E61F844EB700049020 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17132E51F844EB700049020 /* Message.swift */; };
 		B73351372979774500BE9A90 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73351362979774500BE9A90 /* BaseViewController.swift */; };
+		B7335139297A23FA00BE9A90 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7335138297A23FA00BE9A90 /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A17132E31F844D8E00049020 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		A17132E51F844EB700049020 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B73351362979774500BE9A90 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B7335138297A23FA00BE9A90 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		A17132C11F844BD600049020 = {
 			isa = PBXGroup;
 			children = (
+				B7335138297A23FA00BE9A90 /* ColorPickerViewController.swift */,
 				A17132CC1F844BD600049020 /* Mensagens */,
 				A17132CB1F844BD600049020 /* Products */,
 			);
@@ -157,6 +160,7 @@
 				A17132E61F844EB700049020 /* Message.swift in Sources */,
 				A17132E01F844D7300049020 /* MessageColorViewController.swift in Sources */,
 				B73351372979774500BE9A90 /* BaseViewController.swift in Sources */,
+				B7335139297A23FA00BE9A90 /* ColorPickerViewController.swift in Sources */,
 				A17132CE1F844BD600049020 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
