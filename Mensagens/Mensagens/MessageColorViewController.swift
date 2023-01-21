@@ -13,6 +13,7 @@ class MessageColorViewController: BaseViewController {
         super.viewDidLoad()
         
         lbMessage.text = message.text
+        lbMessage.textColor = message.textColor
     }
     
     // Enviando informações de uma View para outra
@@ -24,14 +25,17 @@ class MessageColorViewController: BaseViewController {
         
         //Passa para a variavel message que é herdada de BaseViewController o conteudo da MessageViewCOntroller
         vc.message = message
-    }
-    
-    override func changeColor(_ sender: UIButton) {
-        let colorPicker = storyboard?.instantiateViewController(withIdentifier: "ColorPickerViewController") as! ColorPickerViewController
         
-        colorPicker.modalPresentationStyle = .overCurrentContext
-        
-        present(colorPicker, animated: true)
     }
 }
 
+extension MessageColorViewController: ColorPickerDelegate{
+    func applyColor(color: UIColor){
+        // recebe a cor selecionada no colorPicker e aplica no texto
+        lbMessage.backgroundColor = color
+        
+        // define no objeto message a cor escolhida do texto, para passar para a próxima tela
+        message.backgroundColor = color
+        
+    }
+}

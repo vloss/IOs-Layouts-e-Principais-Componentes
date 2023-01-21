@@ -15,6 +15,10 @@ class ScreenColorViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lbMessage.text = message.text
+        lbMessage.textColor = message.textColor
+        lbMessage.backgroundColor = message.backgroundColor
     }
     
     // Enviando informações de uma View para outra
@@ -26,6 +30,7 @@ class ScreenColorViewController: BaseViewController {
         
         //Passa para a variavel message que é herdada de BaseViewController o conteudo da MessageViewCOntroller
         vc.message = message
+        vc.useBorderWhite = swWhiteBorder.isOn
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,3 +44,9 @@ class ScreenColorViewController: BaseViewController {
     }
 }
 
+extension ScreenColorViewController: ColorPickerDelegate{
+    func applyColor(color: UIColor) {
+        view.backgroundColor = color
+        message.screenColor = color
+    }
+}

@@ -21,6 +21,18 @@ class BaseViewController: UIViewController {
     
     @IBAction func changeColor (_ sender: UIButton){
         
+        if let refence = self as? ColorPickerDelegate{
+
+            let colorPicker = storyboard?.instantiateViewController(withIdentifier: "ColorPickerViewController") as! ColorPickerViewController
+            
+            colorPicker.modalPresentationStyle = .overCurrentContext
+            
+            //Passa referencia para a variavel
+            colorPicker.delegate = refence
+            
+            present(colorPicker, animated: true)
+        }
+        
     }
 
 }

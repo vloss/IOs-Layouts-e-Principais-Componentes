@@ -50,7 +50,6 @@
 		A17132C11F844BD600049020 = {
 			isa = PBXGroup;
 			children = (
-				B7335138297A23FA00BE9A90 /* ColorPickerViewController.swift */,
 				A17132CC1F844BD600049020 /* Mensagens */,
 				A17132CB1F844BD600049020 /* Products */,
 			);
@@ -67,6 +66,7 @@
 		A17132CC1F844BD600049020 /* Mensagens */ = {
 			isa = PBXGroup;
 			children = (
+				B7335138297A23FA00BE9A90 /* ColorPickerViewController.swift */,
 				A17132CD1F844BD600049020 /* AppDelegate.swift */,
 				A17132E51F844EB700049020 /* Message.swift */,
 				B73351362979774500BE9A90 /* BaseViewController.swift */,

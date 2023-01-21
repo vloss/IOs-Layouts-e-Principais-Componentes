@@ -25,14 +25,6 @@ class MessageViewController: BaseViewController {
         //Passa para a variavel message que é herdada de BaseViewController o conteudo da MessageViewCOntroller
         vc.message = message
     }
-    
-    override func changeColor(_ sender: UIButton) {
-        let colorPicker = storyboard?.instantiateViewController(withIdentifier: "ColorPickerViewController") as! ColorPickerViewController
-        
-        colorPicker.modalPresentationStyle = .overCurrentContext
-        
-        present(colorPicker, animated: true)
-    }
 }
 
 extension MessageViewController: UITextFieldDelegate {
@@ -44,5 +36,17 @@ extension MessageViewController: UITextFieldDelegate {
         lbMessage.text = textField.text!
         textField.resignFirstResponder()
         return true
+    }
+}
+
+extension MessageViewController: ColorPickerDelegate{
+
+    func applyColor(color: UIColor){
+        // recebe a cor selecionada no colorPicker e aplica no texto
+        lbMessage.textColor = color
+        
+        // define no objeto message a cor escolhida do texto, para passar para a próxima tela
+        message.textColor = color
+        
     }
 }
